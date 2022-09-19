@@ -1,0 +1,19 @@
+{
+    "name": "shifter/php-serp-sdk",
+    "description": "Serp is an API that allows scraping various search engines such as Google, Bing, Yandex, etc. while using rotating proxies to prevent bans. This SDK for PHP makes the usage of the API easier to implement in any project you have.",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Shifter",
+            "email": "office@shifter.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SerpSDK\\": "src/"
+        }
+    }
+}
